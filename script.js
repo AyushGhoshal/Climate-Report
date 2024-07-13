@@ -40,16 +40,16 @@ async function checkWeather(city){
             weather_img.src = "https://raw.githubusercontent.com/AyushGhoshal/Climate-Report/main/assets/cloud.png";
             break;
         case 'Clear':
-            weather_img.src = "/assets/clear.png";
+            weather_img.src = "https://raw.githubusercontent.com/AyushGhoshal/Climate-Report/main/assets/clear.png";
             break;
         case 'Rain':
-            weather_img.src = "/assets/rain.png";
+            weather_img.src = "https://raw.githubusercontent.com/AyushGhoshal/Climate-Report/main/assets/rain.png";
             break;
         case 'Mist':
-            weather_img.src = "/assets/mist.png";
+            weather_img.src = "https://raw.githubusercontent.com/AyushGhoshal/Climate-Report/main/assets/mist.png";
             break;
         case 'Snow':
-            weather_img.src = "/assets/snow.png";
+            weather_img.src = "https://raw.githubusercontent.com/AyushGhoshal/Climate-Report/main/assets/snow.png";
             break;
 
     }
